@@ -1,0 +1,105 @@
+.mytittle{
+    color: gold;
+    background: midnightblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-shadow: orange;
+}
+.home{
+    color: gold;
+    background: midnightblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-shadow: orange; 
+}
+.sales{
+    color: gold;
+    background: midnightblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-shadow: orange; 
+}
+.mybackground{
+    background: rgb(255, 238, 0);
+    color: black;
+    height:1200px;
+    window
+}
+}
+.mylabel{
+    border: 1px inset: #0076ff;
+    border-radius:5px;
+    background:#428bca;
+    color: #fff;
+    padding-left: 4px;
+    margin-right:3px;
+}
+*{
+    margin: 3px;
+    padding: 2px;
+    box-sizing:content-box;
+    outline: none;
+    font-family: josefin Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 400px;
+    width: 100%;
+    background:beige;
+    padding: 25px;
+    border-radius: 4px;
+    box-shadow:red;
+}
+.wrapper h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text transform:uppercase;
+    letter-spacing:3px;
+    color:#332902;
+    border-spacing:20px;
+    border-radius:80px;
+    
+
+}
+.wrapper .input_field{
+    margin-bottom: 30px;
+    border-radius: 25px;
+    background: yellow;
+}
+.wrapper.input_field input[type="text"],
+.wrapper textarea{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 25px;
+}
+.wrapper textarea{
+    height: 120px;
+}
+.wrapper .btn input[type="submit"]{
+border: 10px;
+margin-top: 15px;
+padding: 10px;
+width: 60%;
+background: #f57104;
+color: black;
+text-transform: uppercase;
+letter-spacing: 5px;
+font-weight: bold;
+border-radius: 15px;
+cursor: pointer;
+}
+.wrapper #error_message{
+    margin-bottom: 20px;
+    padding: 0px;
+    background: rgb(226, 83, 83);
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+
+
+}
